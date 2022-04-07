@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>New personal website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <!-- Logo and navbar section -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="#home" id="navbar__logo">JL</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#web_apps" class="navbar__links" id="web-apps-page">Web-apps</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#websites" class="navbar__links" id="websites-page">Websites</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#skills" class="navbar__links" id="about-me-page">Skills</a>
+        </li>
+        <li class="navbar__btn">
+          <a href="#about-me" class="button" id="about-me-page">About me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+  <div class="hero" id="home">
+    <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+    <a href="/" class="social__icon--link"><i class="fab fa-github"></i></a>
+    <div class="hero__container">
+      <h1 class="hero__heading">Jared Le Clos</h1>
+      <p class="hero__description">Web developer</p>
+      <button class="main__btn"><a href="#web_apps">My work</a></button>
+    </div>
+  </div>
+
+  <!-- Web-apps section -->
+  <div class="main" id="web_apps">
+    <div class="container" id="main__container">
+      <div class="row" id="main__content-webapps">
+        <div class="col-md-12">
+          <h1>Web-apps</h1>
+        </div>
+
+        <!-- typing game -->
+        <div class="col-md-6">
+          <h2>Typing game<h2>
+              <p>html, sass, javascript, jquery</p>
+              <div class="thumbnail">
+                <a href="https://leclos.github.io/type/" target="_blank">
+                  <img src="images/type.PNG" alt="Typing website" class="game">
+                </a>
+                <a class="btn btn-primary" id="project_button" href="https://leclos.github.io/type/" role="button">View
+                  Project</a>
+                <a class="btn btn-primary" id="project_button" href="https://github.com/LeClos/type" role="button">View
+                  Code</a>
+                <p>Typing game in which you must spell a word before the timer runs out to move on.</p>
+              </div>
+        </div>
+
+        <!-- todo app -->
+        <div class="col-md-6">
+          <h2>To-do app<h2>
+              <p>html, sass, javascript</p>
+              <div class="thumbnail">
+                <a href="https://leclos.github.io/2D/" target="_blank">
+                  <img src="images/2d.PNG" alt="To-do website" class="game">
+                </a>
+              </div>
+              <a class="btn btn-primary" id="project_button" href="https://leclos.github.io/2D/" role="button">View
+                Project</a>
+              <a class="btn btn-primary" id="project_button" href="https://github.com/LeClos/2D" role="button">View
+                Code</a>
+              <p>Basic to-do app which stores tasks in which you can tick off and delete, also
+                saves to
+                local storage.
+              </p>
+        </div>
+        <hr style="opacity: 0;">
+
+        <!-- FWG game -->
+        <div class="col-md-6">
+          <h2>FWG game<h2>
+              <p>React, html, sass, javascript</p>
+              <div class="thumbnail">
+                <a href="https://leclos.github.io/FWG/" target="_blank">
+                  <img src="images/fwg.PNG" alt="FWG game website" class="game">
+                </a>
+              </div>
+              <a class="btn btn-primary" id="project_button" href="https://leclos.github.io/FWG/" role="button">View
+                Project</a>
+              <a class="btn btn-primary" id="project_button" href="https://github.com/LeClos/FWG" role="button">View
+                Code</a>
+              <p>Small javascript game that puts you against the computer in a Ropck Paper
+                Scissors
+                like fassion.
+              </p>
+        </div>
+
+        <!-- Local weather app-->
+        <div class="col-md-6">
+          <h2>Local weather app<h2>
+              <p>html, sass, javascript</p>
+              <div class="thumbnail">
+                <a href="https://leclos.github.io/jWeather/" target="_blank">
+                  <img src="images/jweather.PNG" alt="Weather website" class="game">
+                </a>
+              </div>
+              <a class="btn btn-primary" id="project_button" href="https://leclos.github.io/jWeather/"
+                role="button">View
+                Project</a>
+              <a class="btn btn-primary" id="project_button" href="https://github.com/LeClos/jWeather"
+                role="button">View
+                Code</a>
+              <p>Small javascript game that puts you against the computer in a Ropck Paper
+                Scissors
+                like fassion.
+              </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Websites section -->
+  <div class="main" id="websites">
+    <div class="container" id="main__container">
+      <div class="row" id="main__content-websites">
+        <div class="col-md-12">
+          <h1>Websites</h1>
+        </div>
+
+        <!-- Personal website -->
+        <div class="col-md-6">
+          <h2>My personal website<h2>
+              <div class="thumbnail">
+                <a href="https://leclos.github.io/jWeb/" target="_blank">
+                  <img src="images/personal-website.png" alt="Personal-website" class="game">
+                </a>
+                <a class="btn btn-primary" id="project_button" href="https://leclos.github.io/jWeb/" role="button">View
+                  Project</a>
+                <a class="btn btn-primary" id="project_button" href="https://github.com/LeClos/jWeb" role="button">View
+                  Code</a>
+                <p>Website to display my info, skills and projects.</p>
+              </div>
+        </div>
+
+        <!-- Fitness website -->
+        <div class="col-md-6">
+          <h2>Fitness website<h2>
+              <div class="thumbnail">
+                <a href="https://leclos.github.io/GetFit/" target="_blank">
+                  <img src="images/getfit.png" alt="Fitness website" class="game">
+                </a>
+              </div>
+              <a class="btn btn-primary" id="project_button" href="https://leclos.github.io/GetFit/" role="button">View
+                Project</a>
+              <a class="btn btn-primary" id="project_button" href="https://github.com/LeClos/GetFit" role="button">View
+                Code</a>
+              <p>Website idea for a company who sells multiple fitness plans
+              </p>
+        </div>
+        <hr style="opacity: 0;">
+
+        <!-- Makeup Portfolio -->
+        <div class="col-md-6 mx-auto">
+          <h2>Makeup Portfolio<h2>
+              <div class="thumbnail">
+                <a href="https://leclos.github.io/aWeb/" target="_blank">
+                  <img src="images/aweb2.png" alt="Makeup Portfolio" class="game">
+                </a>
+              </div>
+              <a class="btn btn-primary" id="project_button" href="https://leclos.github.io/aWeb/" role="button">View
+                Project</a>
+              <a class="btn btn-primary" id="project_button" href="https://github.com/LeClos/aWeb" role="button">View
+                Code</a>
+              <p>Makeup Portfolio for Alannah Beck
+              </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills section -->
+  <div class="main" id="skills">
+    <div class="container" id="main__container-skills">
+      <div class="row" id="main__content-skills">
+        <div class="col-md-12">
+          <h1>Skills</h1>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-4">
+            <img src="images/html.png" class="skill-icon" alt="html">
+            <p>Html</p>
+          </div>
+          <div class="col-6 col-sm-4">
+            <img src="images/css.png" class="skill-icon" alt="css">
+            <p>CSS</p>
+          </div>
+          <div class="col-6 col-sm-4">
+            <img src="images/javas.png" class="skill-icon" alt="javascript">
+            <p>JavaScript</p>
+          </div>
+          <div class="col-6 col-sm-4">
+            <img src="images/bs4.png" class="skill-icon" alt="bootstrap">
+            <p>Bootstrap 4</p>
+          </div>
+          <div class="col-6 col-sm-4">
+            <img src="images/react.png" class="skill-icon" alt="react">
+            <p>React</p>
+          </div>
+          <div class="col-6 col-sm-4">
+            <img src="images/jq.png" class="skill-icon" alt="jquery">
+            <p>jQuery</p>
+          </div>
+          <div class="col -6 col-sm-4">
+            <img src="images/sketch.png" class="skill-icon" alt="sketch">
+            <p>Sketch</p>
+          </div>
+          <div class="col-6 col-sm-4">
+            <img src="images/pyf.png" class="skill-icon" alt="python">
+            <p>Python</p>
+          </div>
+          <div class="col-6 col-sm-4">
+            <img src="images/sql.png" class="skill-icon" alt="mysql">
+            <p>mySQL</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact section -->
+  <div class="main" id="about-me">
+    <div class="container" id="main__container">
+      <div class="row" id="main__content-about-me">
+        <div class="col-md-12">
+          <h1>Contact me</h1>
+        </div>
+        <div class="col-md-12">
+          <h2><img src="images/gmail.png" alt="gmail" id="icon">Email adress:
+            jared.leclos@gmail.com<h2>
+        </div>
+        <div class="col-md-12">
+          <h2><a href="https://www.linkedin.com/in/jared-le-clos-218628187/"><img src="images/linkedin.png" alt="linkedin" id="icon">LinkedIn:
+            Jared Le Clos<h2></a>
+        </div>
+        <div class="col-md-12">
+          <h2><a href="https://github.com/LeClos"><img src="images/ghicon.png" alt="github" id="icon">GitHub:
+            Jared Le Clos<h2></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
